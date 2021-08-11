@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Desktop</title>
+
+    <script src="./assets/js/index.js" defer></script>
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <div class="component">
+        <header>
+            <h2>To Do Desktop</h2>
+        </header>
+        <main>
+            <div class="content">
+                <input id="todo-input" placeholder="Type a task..." type="text"/>
+                <input id="todo-time-input" placeholder="Choose.a end point.."  type="time" />
+                <button id="todo-add-button" onclick={addTodo()}>Add todo</button>
+            </div>
+            <ul id="todo-list">
+            </ul>
+        </main>
+    </div>
+</body>
+</html>
